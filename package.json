@@ -7,7 +7,7 @@
     "serve": "http-server ./",
     "build": "webpack",
     "build:dev": "npm run build -- --mode development --watch",
-    "build:prod": "npm run build --mode production"
+    "build:prod": "npm run build -- --mode production"
   },
   "repository": {
     "type": "git",
