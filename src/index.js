@@ -1,3 +1,3 @@
-import log from "./log";
+import { log, info, warn } from "./log";
 
 log('hello');
