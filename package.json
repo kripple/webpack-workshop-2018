@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "serve": "http-server ./",
-    "build": "webpack --mode development",
-    "build:prod": "webpack --mode production"
+    "build": "webpack",
+    "build:dev": "npm run build -- --mode development --watch",
+    "build:prod": "npm run build --mode production"
   },
   "repository": {
     "type": "git",
